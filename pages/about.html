@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Ashley Oliver | Author & Filmmaker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* This creates the text-wrap effect on desktop */
+        @media (min-width: 768px) {
+            .profile-img {
+                float: left;
+                margin-right: 2rem;
+                margin-bottom: 1rem;
+                width: 40%;
+            }
+        }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <a href="index.html" class="text-2xl font-bold tracking-tighter uppercase">Ashley Oliver</a>
+        <div class="space-x-6 text-gray-400">
+            <a href="index.html" class="hover:text-white">Home</a>
+            <a href="about.html" class="text-white border-b border-red-600">About</a>
+            <a href="about.html#contact" class="hover:text-white">Contact</a>
+        </div>
+    </nav>
+
+    <section class="max-w-5xl mx-auto px-6 py-12 lg:py-20">
+        <h2 class="text-4xl font-bold mb-10">Behind the Stories</h2>
+        
+        <div class="block">
+            <img src="../images/Ashley_Profile.jpg" alt="Ashley Oliver" class="profile-img rounded-lg grayscale hover:grayscale-0 transition duration-500 shadow-2xl mb-6 md:mb-2">
+
+            <div class="text-gray-300 leading-relaxed space-y-6 text-lg">
+                <p>
+                    Born and raised in Fort Valley, GA, Ashley Oliver’s journey into storytelling began at home. As a young child, her grandmother would read to her every night—a tradition that planted the seeds for a lifelong love of the written word. After receiving a writing award in grade school, Ashley began to hone her craft with a new level of seriousness. 
+                </p>
+
+                <p>
+                    She furthered her education at the University of West Georgia and Fort Valley State University, where she immersed herself in creative writing and screenplay courses. These experiences, paired with a deep fascination for thriller/suspense novels and documentaries, eventually led to the birth of her debut novel, <span class="text-white italic">Trafficking Tara</span>.
+                </p>
+
+                <p>
+                    Today, Ashley is a storyteller driven by tension, high stakes, and the complexities of human resilience. She has established herself as a writer who isn't afraid to explore the darker corners of reality. Currently, she is expanding her creative horizon into the world of film, adapting her sharp narrative style for the screen to highlight profound social truths and keep audiences on the edge of their seats.
+                </p>
+
+                <p>
+                    Now a mother and a rising filmmaker, Ashley is dedicated to becoming a full-time author and inspiring others. Her mission is to encourage minorities to <span class="text-red-500 font-semibold">“follow their dreams, regardless of any obstacles that may stand in your way.”</span> 
+                </p>
+
+                <p>
+                    <span class="text-white italic font-semibold">Trafficking Tara</span> is only the beginning. Whether through the pages of a book or the lens of a camera, Ashley Oliver continues to develop projects that challenge the status quo and push the boundaries of the thriller genre.
+                </p>
+            </div>
+        </div>
+
+        <div id="contact" class="mt-20 pt-10 border-t border-zinc-800 clear-both">
+            <h4 class="text-sm uppercase tracking-widest text-gray-500 mb-4">Connect</h4>
+            <div class="flex space-x-6">
+                <a href="#" class="text-white hover:text-red-500 transition font-medium">Instagram</a>
+                <a href="#" class="text-white hover:text-red-500 transition font-medium">Twitter</a>
+                <a href="mailto:your-email@example.com" class="text-white hover:text-red-500 transition font-medium">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-12 text-gray-600 text-sm">
+        &copy; 2026 Ashley Oliver. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
