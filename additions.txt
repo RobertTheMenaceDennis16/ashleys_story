@@ -1,0 +1,22 @@
+when you want to add a video as a trailer for a film reveal:
+<div class="h-48 bg-zinc-800 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
+    <iframe 
+        class="w-full h-full" 
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+        title="Film Trailer" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+----------------------------------Add your book cover photo with this---------------------------------------------
+
+            <div class="bg-zinc-900 p-8 rounded-2xl border border-gray-800 hover:border-gray-700 transition group">
+                <div class="h-48 bg-zinc-800 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
+                    <span class="text-zinc-600 font-bold text-4xl group-hover:scale-110 transition">BOOK</span>
+                    <!-- <img src="images/next_book_cover.jpg" alt="Future Release" class="w-full h-full object-cover group-hover:scale-110 transition duration-500"> -->
+                </div>
+                <h4 class="text-xl font-bold mb-2 text-gray-400">Future Release</h4>
+                <p class="text-gray-500 mt-4">Stay tuned for the next gripping thriller from Ashley Oliver.</p>
+            </div>
